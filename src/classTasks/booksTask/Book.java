@@ -6,12 +6,6 @@ public class Book {
     int pagesAmount;
 
     // Constructor
-    public Book(String name, float price, int pagesAmount) {
-        this.name = name;
-        this.price = price;
-        this.pagesAmount = pagesAmount;
-    }
-
     public String getName() {
         return name;
     }

@@ -16,10 +16,23 @@ public class MyBooks {
         // Create and return a list of 3 books
         List<Book> books = new ArrayList<>();
 
-        Book book1 = new Book("The Catcher in the Rye", 12.99f, 224);
-        Book book2 = new Book("To Kill a Mockingbird", 15.50f, 336);
-        Book book3 = new Book("1984", 9.99f, 328);
+        // Create Book objects using setters
+        Book book1 = new Book();
+        book1.setName("The Catcher in the Rye");
+        book1.setPrice(12.99f);
+        book1.setPagesAmount(224);
 
+        Book book2 = new Book();
+        book2.setName("To Kill a Mockingbird");
+        book2.setPrice(15.50f);
+        book2.setPagesAmount(336);
+
+        Book book3 = new Book();
+        book3.setName("1984");
+        book3.setPrice(9.99f);
+        book3.setPagesAmount(328);
+
+        // Add books to the list
         books.add(book1);
         books.add(book2);
         books.add(book3);
